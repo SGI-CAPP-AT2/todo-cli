@@ -11,7 +11,7 @@ void writeTodoListToFile()
     FILE *fp = fopen(filename, "w+");
     if (fp == NULL)
     {
-        printf("File Created !");
+        printf("File Created !\n");
         return;
     }
 
@@ -29,7 +29,7 @@ void readTodoListFromFile()
     FILE *fp = fopen(filename, "r+");
     if (fp == NULL)
     {
-        printf("File Created !");
+        printf("File Created !\n");
         return;
     }
 
